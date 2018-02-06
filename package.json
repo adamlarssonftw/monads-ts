@@ -1,0 +1,23 @@
+{
+  "name": "monads-ts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "/dist/index.js",
+  "scripts": {
+    "start": "tsc && node ./dist/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adamlarssonftw/monads-ts.git"
+  },
+  "author": "Adam Larsson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/adamlarssonftw/monads-ts/issues"
+  },
+  "homepage": "https://github.com/adamlarssonftw/monads-ts#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0"
+  }
+}
