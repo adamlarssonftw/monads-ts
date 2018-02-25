@@ -1,4 +1,4 @@
-import {pipe} from './pipe';
+import {pipe} from './utils/pipe';
 import {Functor} from './functor';
 
 const f = (x) => x * 2;
