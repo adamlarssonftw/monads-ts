@@ -1,11 +1,11 @@
-export class Functor {
+export class Functor<T> {
 	private _value;
 	
-	constructor(value: any) {
+	constructor(value: T) {
 		this._value = value;
 	}
 
-	public fmap(fn): Functor<T> {
+    public fmap<Function>(fn: (value: T) => any): Functor<any> {
         return new Functor(fn(this._value));
 	}
 }
