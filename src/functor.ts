@@ -5,7 +5,7 @@ export class Functor {
 		this._value = value;
 	}
 
-		return new Functor(fn(this._value));
-	public fmap(fn) {
+	public fmap(fn): Functor<T> {
+        return new Functor(fn(this._value));
 	}
 }
