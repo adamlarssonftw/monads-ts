@@ -1,5 +1,5 @@
 export class Functor<T> {
-	private _value;
+	protected _value;
 	
 	constructor(value: T) {
 		this._value = value;
